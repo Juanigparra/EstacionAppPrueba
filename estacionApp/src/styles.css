@@ -1,0 +1,180 @@
+/* Estilo para el fondo de la página */
+body {
+    background-color: rgba(215, 215, 215, 0.808);
+    color: rgb(181, 30, 30);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para el recuadro blanco del formulario */
+.form-container {
+    background-color: rgba(6, 89, 255, 0.93);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 330px;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo para el botón de "Iniciar sesión" */
+.login-btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    margin-left: 16%;
+    
+}
+
+/* Estilo para los botones "Olvidé mi contraseña" y "Registrarme" */
+.secondary-btn {
+    background-color: transparent;
+    color: whitez;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-decoration: underline;
+    margin-bottom: -20px;
+    margin-left: -20px;
+
+}
+
+/* estilos para campos de los formularios. */
+.input {
+    width: calc(100% - 30px); /* Ajustamos el ancho considerando el padding */
+    padding: 15px; /* Aumentamos el padding para un tamaño mayor */
+    margin-bottom: 25px; /* Aumentamos el margen para más separación */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Ajusta según necesites */
+    font-size: 16px; /* Aumentamos el tamaño de la fuente */
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* Estilo para el recuadro del formulario de registro */
+.register-form {
+    background-color: rgba(6, 89, 255, 0.93);
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto; /* Centra el recuadro horizontalmente */
+    text-align: center;
+    color: white;
+    position: relative; /* Para posicionar el botón "Registrarse" fuera del recuadro */
+}
+
+/* Estilo para el título "Registro" */
+.register-form h2 {
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para las etiquetas del formulario de registro */
+.register-form label {
+    color: white; /* Color blanco para las etiquetas */
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño que el título "Registro" */
+    margin-bottom: 5px; /* Espacio inferior para separar las etiquetas de los campos de entrada */
+    text-align: left; /* Alinea el texto al principio del recuadro */
+    margin-left: 10px; /* Añade un pequeño padding para que no esté pegado al borde */
+}
+
+/* Estilo para los campos de entrada del formulario de registro */
+.register-form .input {
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin-bottom: 15px; /* Ajusta el margen para más separación entre campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* ... (otros estilos) ... */
+
+/* Estilo para el contenedor de botones */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+    margin-top: 20px;
+}
+
+/* Estilo para el botón "Registrarse" */
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Estilo para el botón "Volver" */
+.btn-back {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el overlay esté por encima de otros elementos */
+}
+
+.popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    color: black;
+}
+
+
+.popup h2 {
+    color: black;
+    text-align: center;
+}
+
+
+.popup-buttons {
+    display: flex;
+    justify-content: space-between; /* Separa los botones */
+    gap: 20px; /* Espacio entre los botones */
+}
+
+.btn, .btn-back {
+    width: 48%; /* Asegura que ambos botones tengan el mismo tamaño y ocupen casi la mitad del espacio disponible */
+    text-align: center; /* Centra el texto dentro de los botones */
+}
+
+
