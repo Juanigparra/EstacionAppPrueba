@@ -1,0 +1,68 @@
+
+input[type="email"]:disabled {
+    background-color: #b9b9b9; /* Gris claro */
+    cursor: not-allowed; /* Cambia el cursor a un ícono de "no permitido" */
+}
+/* ConfigurationForm.css */
+
+/* ConfigurationForm.css */
+
+/* Estilo para el recuadro del formulario de configuración */
+.config-form {
+    background-color: rgba(6, 89, 255, 0.93);
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto; /* Centra el recuadro horizontalmente */
+    text-align: center;
+    color: white;
+    position: relative; /* Para posicionar el botón "Guardar Cambios" dentro del recuadro */
+}
+
+/* Estilo para el título "Configuración" */
+.config-form h2 {
+    color: white;
+    text-align: center;
+}
+
+/* Estilo para las etiquetas del formulario de configuración */
+.config-form label {
+    color: white; /* Color blanco para las etiquetas */
+    font-size: 1.2rem; /* Tamaño de fuente más pequeño que el título "Configuración" */
+    margin-bottom: 5px; /* Espacio inferior para separar las etiquetas de los campos de entrada */
+    text-align: left; /* Alinea el texto al principio del recuadro */
+    margin-left: 10px; /* Añade un pequeño padding para que no esté pegado al borde */
+}
+
+/* Estilo para los campos de entrada del formulario de configuración */
+.config-form .input {
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin-bottom: 15px; /* Ajusta el margen para más separación entre campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para el botón "Guardar Cambios" */
+.config-form .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* Si en el futuro agregas un botón "Volver" o similar, puedes usar este estilo */
+.config-form .btn-back {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    display: inline-block; /* Hace que el enlace se comporte como un botón */
+}

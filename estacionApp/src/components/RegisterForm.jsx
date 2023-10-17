@@ -19,28 +19,28 @@ function RegisterForm() {
         <div className="register-form">
             <h2>Registro</h2>
             <form onSubmit={handleRegister}>
-                <label>NOMBRE*</label>
+                <label>Nombre *</label>
                 <input type="text" placeholder="Nombre" className="input" required />
 
-                <label>APELLIDO*</label>
+                <label>Apellido *</label>
                 <input type="text" placeholder="Apellido" className="input" required />
 
-                <label>DNI*</label>
+                <label>DNI *</label>
                 <input type="text" placeholder="DNI" className="input" required />
 
-                <label>NUMERO DE TELEFONO*</label>
+                <label>Numero de Telefono *</label>
                 <input type="tel" placeholder="Número de teléfono" className="input" required />
 
-                <label>PATENTE*</label>
+                <label>Patente *</label>
                 <input type="text" placeholder="Patente" className="input" required />
 
-                <label>CORREO ELECTRONICO*</label>
+                <label>Correo Electronico *</label>
                 <input type="email" placeholder="Correo electrónico" className="input" required />
 
-                <label>CONTRASEÑA*</label>
+                <label>Contraseña *</label>
                 <input type="password" placeholder="Contraseña" className="input" required />
 
-                <label>REPETIR CONTRASEÑA*</label>
+                <label>Repetir Contraseña *</label>
                 <input type="password" placeholder="Repetir Contraseña" className="input" required />
 
                 <div className="buttons-container">

@@ -1,0 +1,21 @@
+.settings-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.settings-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color:  rgba(6, 89, 255, 0.93);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.logout-link {
+    text-decoration: underline; /* Subrayado */
+    color: #007BFF; /* Color del hipervínculo */
+    cursor: pointer;
+}
