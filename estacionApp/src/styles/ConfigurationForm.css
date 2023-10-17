@@ -1,11 +1,12 @@
-
+/* ConfigurationForm.css 
 input[type="email"]:disabled {
-    background-color: #b9b9b9; /* Gris claro */
-    cursor: not-allowed; /* Cambia el cursor a un ícono de "no permitido" */
+    background-color: #b9b9b9; /* Gris claro 
+    cursor: not-allowed; /* Cambia el cursor a un ícono de "no permitido" 
 }
-/* ConfigurationForm.css */
-
-/* ConfigurationForm.css */
+*/
+.input[disabled] {
+    background-color: #b9b9b9;
+}
 
 /* Estilo para el recuadro del formulario de configuración */
 .config-form {
@@ -65,4 +66,24 @@ input[type="email"]:disabled {
     cursor: pointer;
     text-decoration: none; /* Elimina el subrayado del enlace */
     display: inline-block; /* Hace que el enlace se comporte como un botón */
+}
+
+
+.label-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+.label-container label {
+    flex: 1; /* Ocupa todo el espacio disponible, empujando el ícono a la derecha */
+}
+
+
+.pencil-icon {
+    width: 15px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
 }

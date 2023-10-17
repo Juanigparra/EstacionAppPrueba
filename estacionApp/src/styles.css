@@ -91,6 +91,10 @@ body {
     margin-bottom: 5px; /* Espacio inferior para separar las etiquetas de los campos de entrada */
     text-align: left; /* Alinea el texto al principio del recuadro */
     margin-left: 10px; /* Añade un pequeño padding para que no esté pegado al borde */
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; /* Ocupa todo el ancho disponible */
 }
 
 /* Estilo para los campos de entrada del formulario de registro */

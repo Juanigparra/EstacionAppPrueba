@@ -28,8 +28,8 @@ function RegisterForm() {
                 <label>DNI *</label>
                 <input type="text" placeholder="DNI" className="input" required />
 
-                <label>Numero de Telefono *</label>
-                <input type="tel" placeholder="Número de teléfono" className="input" required />
+                <label>Teléfono *</label>
+                <input type="tel" placeholder="Teléfono" className="input" required />
 
                 <label>Patente *</label>
                 <input type="text" placeholder="Patente" className="input" required />
